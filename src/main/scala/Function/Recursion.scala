@@ -1,7 +1,5 @@
 package Function
 
-import scala.jdk.Accumulator
-
 object Recursion extends  App{
   def factorial(n:Int):BigInt= {
     def factHelper(x: Int, accumulator: BigInt): BigInt =
